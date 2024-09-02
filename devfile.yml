@@ -1,0 +1,13 @@
+version: v1beta10
+images:
+  my-app:
+    image: api-nodejs-backend-img  # Define your Docker image here
+
+commands:
+  pre:
+    # Install htop
+    - name: Install htop
+      command: |
+        sudo dnf install -y htop
+        
+   
