@@ -8,8 +8,7 @@ commands:
     # Install htop
     - name: Install htop
       command: |
-        sudo dnf install -y
-        
+        sudo dnf install -y htop        
 # Install Node.js and npm
     - name: Install Node.js and npm
       command: |
